@@ -13,5 +13,7 @@ func main() {
 	})
 	fmt.Println("Server is running on port 5001")
 	app.Listen(":5001") // had to change the port to 5001 since airplay is using 5000
+	// now will start working from this project
+	// Hope you're clear with intial setup
 
 }
