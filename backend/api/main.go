@@ -1,12 +1,12 @@
 package main
 
 import (
+	_ "Server/backend/api/docs" //added this one
 	"Server/database"
 	"fmt"
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/cors"
 	"github.com/gofiber/swagger"
-	_ "github.com/sridharakella/golangapp/backend/docs"
 )
 
 // @title Golang App Development by sridhar

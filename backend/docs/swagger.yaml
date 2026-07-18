@@ -1,0 +1,17 @@
+basePath: /
+host: localhost:5001
+info:
+  contact: {}
+  description: This is a sample server celler by sridhar
+  title: Golang App Development by sridhar
+  version: "1.0"
+paths: {}
+schemes:
+- http
+securityDefinitions:
+  BearerAuth:
+    description: 'Type into the textbox: Bearer {your JWT token}'
+    in: header
+    name: Authorization
+    type: apiKey
+swagger: "2.0"
